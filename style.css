@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 40vh;
+  min-height: 60vh;
   flex-direction: column;
   border-radius: 10px;
   background-color: rgb(67, 67, 67);
@@ -80,4 +80,29 @@ button:hover {
 .operador {
   color: #fff;
   background-color: rgb(55, 134, 198);
+}
+
+@media screen and (max-width: 850px) {
+  .container{
+    width: 70%;
+    min-height: 40vh;
+  }
+  button{
+    font-size: 1.5rem;
+  }
+  .botones{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container{
+    width: 90%;
+  }
+  button{
+    font-size: 1rem;
+  }
+  .botones{
+    width: 100%;
+  }
 }
