@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.container {
+  width: 20%;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: rgb(67, 67, 67);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-box-shadow: 10px 9px 5px -1px rgba(99, 95, 99, 0.62);
+  -moz-box-shadow: 10px 9px 5px -1px rgba(99, 95, 99, 0.62);
+  box-shadow: 10px 9px 5px -1px rgba(99, 95, 99, 0.62);
+}
+
+input {
+  width: 100%;
+  height: 4em;
+  font-size: 1rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background-color: rgb(139, 209, 139);
+  margin-bottom: 15%;
+}
+
+.botones {
+  width: 100%;
+  height: 10em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  cursor: pointer;
+  border: none;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+.numero {
+  color: #fff;
+  background-color: rgb(189, 186, 186);
+}
+
+.igual {
+  color: #fff;
+  background-color: rgb(227, 57, 57);
+}
+
+.operador {
+  color: #fff;
+  background-color: rgb(55, 134, 198);
+}
