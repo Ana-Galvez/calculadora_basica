@@ -32,7 +32,7 @@ body {
 
 input {
   direction: rtl;
-  color:#fff;
+  color: #fff;
   width: 100%;
   height: 4em;
   font-size: 1.5rem;
@@ -69,6 +69,13 @@ button:hover {
   opacity: 0.7;
 }
 
+.limpiar {
+  width: 100%;
+  margin-bottom: 5%;
+  color: #fff;
+  background-color: rgb(227, 57, 57);
+}
+
 .numero {
   color: #fff;
   background-color: rgb(189, 186, 186);
@@ -85,26 +92,30 @@ button:hover {
 }
 
 @media screen and (max-width: 850px) {
-  .container{
+  .container {
     width: 70%;
     min-height: 40vh;
   }
-  button{
+
+  button {
     font-size: 1.5rem;
   }
-  .botones{
+
+  .botones {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .container{
+  .container {
     width: 90%;
   }
-  button{
+
+  button {
     font-size: 1rem;
   }
-  .botones{
+
+  .botones {
     width: 100%;
   }
 }
