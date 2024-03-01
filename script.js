@@ -7,10 +7,12 @@ function limpiarInput() {
 }
 
 function resultado() {
-  const result = eval(document.getElementById("display").value);
+  let result;
   try {
+    result = eval(document.getElementById("display").value);
     document.getElementById("display").value = result;
   } catch (error) {
-    alert('Verifique cuando pone los números y el punto')
+    alert("Verifique cuando pone los números y el punto");
+    limpiarInput();
   }
 }
