@@ -12,8 +12,11 @@
 <body>
   <div class="container">
     <input type="text" disabled id="display">
-    <button class="limpiar" id="limpiar" onclick="limpiarInput()">C</button>
     <div class="botones">
+      <button class="limpiar" id="limpiar" onclick="limpiarInput()">C</button>
+      <button class="operador" onclick="sacarPorcentaje(10000,3)">%</button>
+      <button class="operador">X²</button>
+      <button class="operador" onclick="borrarUnNumero()">←</button>
       <button class="numero" onclick="agregarAlInput('7')">7</button>
       <button class="numero" onclick="agregarAlInput('8')">8</button>
       <button class="numero" onclick="agregarAlInput('9')">9</button>

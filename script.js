@@ -7,7 +7,7 @@ function limpiarInput() {
 }
 
 function resultado() {
-  let result;
+  let result; 
   try {
     result = eval(document.getElementById("display").value);
     document.getElementById("display").value = result;
@@ -15,4 +15,10 @@ function resultado() {
     alert("Verifique cuando pone los números y el punto");
     limpiarInput();
   }
+}
+
+function borrarUnNumero(){
+  let valores=document.getElementById("display").value;
+  let nuevoValor = valores.slice(0,valores.length-1);
+  document.getElementById("display").value = nuevoValor;
 }
