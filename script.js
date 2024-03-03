@@ -2,6 +2,10 @@ function agregarAlInput(valor) {
   document.getElementById("display").value += valor;
 }
 
+function potenciaAlCuadrado(){
+  document.getElementById("display").value=document.getElementById("display").value**2;
+}
+
 function limpiarInput() {
   document.getElementById("display").value = "";
 }
